@@ -1,0 +1,28 @@
+package latihan1;
+
+/**
+ *
+ * @author nabila
+ */
+public class UjiBus {
+    public static void main(String[] args) {
+        Bus busMini = new Bus();
+        busMini.penumpang = 5;
+        busMini.maxPenumpang = 20;
+        busMini.cetak();
+        
+        busMini.penumpang = busMini.penumpang + 5;
+        busMini.cetak();
+        
+        busMini.penumpang = busMini.penumpang - 2;
+        busMini.cetak();
+        
+        busMini.penumpang = busMini.penumpang + 8;
+        busMini.cetak();
+        
+    }
+}
+
+//Jumlah penumpang terakhir adalah 16, sedangkan jumlah penumpang maksimum adalah 20.
+//Karena dalam perjalanan bus penumpang naik dan turun dengan jumlah yang berbeda - beda.
+
